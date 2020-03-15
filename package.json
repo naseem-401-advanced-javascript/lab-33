@@ -1,0 +1,41 @@
+{
+  "name": "lab-33",
+  "version": "1.0.0",
+  "description": "### Author: naseem",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "lint": "eslint '**/*.js'",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/naseem-401-advanced-javascript/lab-33.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/naseem-401-advanced-javascript/lab-33/issues"
+  },
+  "homepage": "https://github.com/naseem-401-advanced-javascript/lab-33#readme",
+  "dependencies": {
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
+    "eslint": "^6.8.0",
+    "gh-pages": "^2.2.0",
+    "node-sass": "^4.13.1",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "react-json-view": "^1.19.1",
+    "react-jsonschema-form": "^1.8.1",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "^3.4.0",
+    "react-test-renderer": "^16.13.0",
+    "superagent": "^5.2.2"
+  }
+}
